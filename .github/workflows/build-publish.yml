@@ -28,8 +28,8 @@ jobs:
                 JF_URL: https://${{ secrets.JF_URL }}/
                 JF_PROJECT: 'vigneshs'
               with:
-                  oidc-provider-name: vigneshs-github
-                  oidc-audience: jfrog-github-oidc
+                  oidc-provider-name: github-roja
+                  oidc-audience: jfrog-support
 
             - name: Checkout the repository
               uses: actions/checkout@v4
