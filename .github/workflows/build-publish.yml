@@ -26,7 +26,7 @@ jobs:
               id: setup-cli
               env:
                 JF_URL: https://${{ secrets.JF_URL }}/
-                JF_PROJECT: 'vigneshs'
+                JF_PROJECT: 'roja-test'
               with:
                   oidc-provider-name: github-roja
                   oidc-audience: jfrog-support
